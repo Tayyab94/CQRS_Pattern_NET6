@@ -10,10 +10,10 @@ Commands – The operations that change the application state and return no data
 
 The CQRS pattern is a great expression of the single responsibility principle. It states that we should have separate models for Queries and Commands because in the real-world application the requirements for read operations are normally different than the write operations. If you are using separate models, then you can handle complex scenarios without worrying about disturbing the other operations. Without this separation, we can easily end up with domain models that are full of state, commands, and queries and harder to maintain over time
 
-#Pros of CQRS Pattern
+# Pros of CQRS Pattern
 
 
-CQRS pattern offers the following advantages:
+# CQRS pattern offers the following advantages:
 
 Separation of Concern – We have separate models for read and write operations which not only gives us flexibility but also keeps our models simple and easy to maintain. Normally, the write models have most of the complex business logic whereas the read models are normally simple.
 Better Scalability – Reads operations often occur way more than writes so keeping queries separate than commands makes our applications highly scalable. Both read and write models can be scaled independently even by two different developers or teams without any fear of breaking anything.
