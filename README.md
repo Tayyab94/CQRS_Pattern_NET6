@@ -1,6 +1,6 @@
 # CQRS_Pattern_NET6
 
-#What is CQRS Pattern?
+# What is CQRS Pattern?
 
 Command Query Responsibility Segregation (CQRS) is first described in the book Object-Oriented Software Construction by Bertrand Meyer. It is an arcitectural pattern that separates the read and writes operations of your application. Read operations are called Queries and write operations are called Commands. 
 
